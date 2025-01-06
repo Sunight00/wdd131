@@ -1,0 +1,10 @@
+nav ul {   
+     display: flex;
+     text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

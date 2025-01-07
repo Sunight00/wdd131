@@ -115,6 +115,9 @@ main {
     grid-row: 1/4;
     padding: 1em;
 }
+.resource h2{
+    text-align: center;
+}
 .resource ul{
     margin-top: 5em;
 

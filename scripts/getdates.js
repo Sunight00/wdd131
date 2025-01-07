@@ -7,3 +7,6 @@ const minute = calendar.getMinutes();
 const second = calendar.getSeconds();
 
 document.getElementById("lastModified").innerHTML = (month+1) + "/" + day + "/" + year +" "+ hour + ":" + minute + ":" + second;
+
+
+

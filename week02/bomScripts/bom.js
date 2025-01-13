@@ -7,6 +7,8 @@ const newList = document.createElement('li');
 const deletebutton = document.createElement("Delete");
 
 newlist.textContent = input.value;
+deletebutton.textContent= "❌";
 
 
-
+newList.append(deletebutton);
+list.append(newList);

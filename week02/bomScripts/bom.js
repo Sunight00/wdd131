@@ -12,3 +12,18 @@ deletebutton.textContent= "❌";
 
 newList.append(deletebutton);
 list.append(newList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

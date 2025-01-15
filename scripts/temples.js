@@ -45,9 +45,15 @@ document.getElementById("lastModified").innerHTML = (month+1) + "/" + day + "/" 
 
 
 
+
+
+window.addEventListener("resize", myFunction);
+
+
+
 function myFunction(x) {
     if (x.matches) { // If media query matches
-      document.getElementById("nav").innerHTML=src="images/harm.jpg"
+      document.getElementById("h1").innerHTML="haapy"
     } else {
       document.body.style.backgroundColor = "pink";
     }

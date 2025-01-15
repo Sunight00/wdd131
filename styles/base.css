@@ -46,9 +46,11 @@ nav a:hover{
 
 
 main {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+    max-width: 1300px;    
+    display: grid;    
+    grid-template-columns: auto auto;
+
+
 }
 .card{
     margin: 1em;

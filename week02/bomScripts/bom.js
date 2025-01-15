@@ -9,26 +9,21 @@ const deletebutton = document.createElement("Delete");
 newlist.textContent = input.value;
 deletebutton.textContent= "❌";
 
-
 newList.append(deletebutton);
 list.append(newList);
 
 
 
-button.addEventListener("click", function(){
+
+
+
+
+
+button.addEventListener('click', function() {
+    // Code to execute when the button is clicked
     if (input.value.trim() !== '') {
-        
-    }
-
-});
-
-
-
-
-
-
-
-
-
-
+        if (input.value.trim() !== '') {
+            
+     }}
+  });
 

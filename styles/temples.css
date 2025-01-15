@@ -1,6 +1,23 @@
+*{
+    margin: 0;
 
+}
+/*header{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.363);
+}*/
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+   
+ }
 
-
+ main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
 
 
 
@@ -29,3 +46,7 @@ footer{
     font-style: normal;
     text-align: center;
   }
+
+  #last, #lastModified{
+    color: rgb(83, 75, 75);
+}

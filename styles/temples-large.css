@@ -50,7 +50,9 @@ nav a:hover{
 main h2{
     display: block;
 }
-
+figure{
+    margin-top: 1rem;
+}
  figure img {
     width: 100%;
     height: auto;

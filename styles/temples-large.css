@@ -1,5 +1,6 @@
 *{
     margin: 0;
+
 }
 :root {
     --headings-font: "PT Serif", serif;
@@ -16,6 +17,8 @@ header h1{
     padding-left: 3rem;
     font-family: var(--headings-font);
     font-weight: var(--headings-weight);
+    
+
 }
 nav{
     grid-column: 2/3;
@@ -32,7 +35,8 @@ nav a {
     font-style: normal;
     font-size:larger;
 }
-nav a:hover {
+nav a:hover{
+    
     border-top: 1px solid white;
 }
 
@@ -61,15 +65,9 @@ footer{
     color: rgb(83, 75, 75);
 }
 
-@media screen and (max-width: 700px)
+@media screen and (max-width: 520px)
 {
     nav{
         display: none;
-    }
-    header{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        background-color:black;
-        color: white;
     }
 }

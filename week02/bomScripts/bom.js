@@ -15,7 +15,12 @@ list.append(newList);
 
 
 
+button.addEventListener("click", function(){
+    if (input.value.trim() !== '') {
+        
+    }
 
+});
 
 
 

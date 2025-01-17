@@ -40,7 +40,7 @@ nav a:hover{
     border-top: 1px solid white;
 }
 
- main{
+ #images{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -48,7 +48,11 @@ nav a:hover{
     text-align: center;
  }
 main h2{
-    display: block;
+   text-align: center;
+   margin-top: 2rem;
+   font-family: var(--headings-font);
+    font-weight: var(--headings-weight);
+    font-size: xx-large;
 }
 figure{
     margin-top: 1rem;

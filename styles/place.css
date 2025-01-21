@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+:root {
+    --headings-font: "PT Serif", serif;
+    --headings-weight: 700;
+}
+
+
 header{
     background-color:#070345;
     text-align: center;
@@ -12,6 +18,8 @@ header{
 header h1 {
     text-align: center;
     color: white;
+    font-family: var(--headings-font);
+    font-weight: var(--headings-weight);
 }
 
 .hero img{

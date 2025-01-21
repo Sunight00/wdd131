@@ -42,3 +42,7 @@ p {
 .col {
 	padding: 0.5rem;
 }
+
+main a:hover{
+    color: purple;
+}

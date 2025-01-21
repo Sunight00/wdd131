@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#070345;
+    text-align: center;
+    padding: 1em;
+    border-bottom: 20px solid rgba(255, 0, 0, 0.753);
+}
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+.hero img{
+    width:100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgba(206, 206, 206, 0.555);
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    text-align: center;
+
+
+  }
+
+#last, #lastModified{
+    color: rgb(83, 75, 75);
+}

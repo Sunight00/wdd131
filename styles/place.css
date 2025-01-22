@@ -72,6 +72,10 @@ picture img{
     margin-bottom: 1em;
     
 }
+#overlay2 img{
+    width: 10%;
+    height: auto;
+}
 
 h2{
     margin-bottom: 0.5em;

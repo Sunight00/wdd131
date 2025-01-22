@@ -14,8 +14,8 @@ document.getElementById("lastModified").innerHTML = (month+1) + "/" + day + "/" 
 
 
 let temperature = 6;
-let speed = 5;
-if (temperature <= 10 )
+let speed = 4;
+if (temperature <= 10 && speed <=4.8 )
 {
     function calculateWindChill(temperature,speed)
     {
@@ -29,9 +29,10 @@ if (temperature <= 10 )
 
         const WindChill= 35.74 +0.6215*f - 35.75*(s ** 0.16) + 0.4275*f *(s**0.16);
 
+        WindChill= (32*WindChill-32) * 5/9;
+        //(32°F − 32) × 5/9 = 0°C
 
-        //35.74 + 0.6215T - 35.75(V^0.16) + 0.4275T(V^0.16
-        return s;
+        return WindChill;
 
     }
     document.getElementById("open").innerHTML=calculateWindChill(temperature,speed)

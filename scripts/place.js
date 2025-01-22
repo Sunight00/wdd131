@@ -13,32 +13,28 @@ document.getElementById("lastModified").innerHTML = (month+1) + "/" + day + "/" 
   
 
 
-let temperature = 6;
-let speed = 4;
+let temperature = 11;
+document.getElementById("temperature").innerHTML=temperature;
+let speed = 4.8;
+document.getElementById("speed").innerHTML=speed;
 if (temperature <= 10 && speed <=4.8 )
 {
     function calculateWindChill(temperature,speed)
     {
 
-        // converting preference unit (celcuis)to fahrenheit because wind factor calculation is in fahrenheit
-        let f= (temperature*9/5)+32;
-        // coverting preference unit (miles) kilometres because wind factor calculation is in kph
-        let s = speed*1.60934;
 
 
 
-        const WindChill= 35.74 +0.6215*f - 35.75*(s ** 0.16) + 0.4275*f *(s**0.16);
 
-        WindChill= (32*WindChill-32) * 5/9;
-        //(32°F − 32) × 5/9 = 0°C
+        const WindChill= 35.74 +0.6215*temperature - 35.75*speed ** 0.16 + 0.4275*temperature *speed**0.16;
 
         return WindChill;
 
     }
-    document.getElementById("open").innerHTML=calculateWindChill(temperature,speed)
+    document.getElementById("windchill").innerHTML=calculateWindChill(temperature,speed).toFixed(1)
 }
 else{
-    document.getElementById("open").innerHTML= "N/A";
+    document.getElementById("windchill").innerHTML= "N/A";
 }
 
 

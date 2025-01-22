@@ -13,30 +13,31 @@ document.getElementById("lastModified").innerHTML = (month+1) + "/" + day + "/" 
   
 
 
-let temperature = 10;
-//let speed = 5;
-
-function calculateWindChill(temperature,speed)
+let temperature = 6;
+let speed = 5;
+if (temperature <= 10 )
 {
-    if (temperature <= 10)
+    function calculateWindChill(temperature,speed)
     {
+
         // converting preference unit (celcuis)to fahrenheit because wind factor calculation is in fahrenheit
-        let f= (temperature*9/5)+32
+        let f= (temperature*9/5)+32;
         // coverting preference unit (miles) kilometres because wind factor calculation is in kph
-        let s = speed*1.60934
-
-        return s
+        let s = speed*1.60934;
 
 
 
-
-
-        let WindChill= 35.74 +0.6215*f - 35.75(speed)
+        const WindChill= 35.74 +0.6215*f - 35.75*(s ** 0.16) + 0.4275*f *(s**0.16);
 
 
         //35.74 + 0.6215T - 35.75(V^0.16) + 0.4275T(V^0.16
-
+        return s;
 
     }
+    document.getElementById("open").innerHTML=calculateWindChill(temperature,speed)
 }
-document.getElementById("open").innerHTML=calculateWindChill(10,8)
+else{
+    document.getElementById("open").innerHTML= "N/A";
+}
+
+

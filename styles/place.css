@@ -23,22 +23,39 @@ header h1 {
     font-size:30px;
 }
 
-.hero img{
+img{
     width:100%;
     height: auto;
+    object-fit: cover;
+    
 }
 
 
+.title{
+    text-align: right;
+    font-weight: var(--headings-weight);
+}
 
+.hero{
+    position: relative;
+}
 
+#overlay1{
+    position:absolute;
+    top: 10em;
+    margin-left: 2em;
+}
 
+#overlay2{
+    position:absolute;
+    bottom: 1em;
+    
+   
+}
 
-
-
-
-
-
-
+h2, td {
+    color: white;
+}
 
 
 
@@ -53,10 +70,31 @@ footer{
     font-family: "Montserrat", serif;
     font-style: normal;
     text-align: center;
+    
 
 
   }
 
 #last, #lastModified{
     color: rgb(83, 75, 75);
+}
+
+
+
+@media screen and (max-width: 800px)
+{
+
+    .hero{
+        position:static;
+    }
+    #overlay1{
+        all:unset
+
+    }
+    #overlay2{
+        all: unset;
+    }
+    h2,td{
+        color: blue;
+    }
 }

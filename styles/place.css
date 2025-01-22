@@ -20,7 +20,7 @@ header h1 {
     color: white;
     font-family: var(--headings-font);
     font-weight: var(--headings-weight);
-    font-size:40px;
+    font-size:30px;
 }
 
 .hero img{

@@ -71,15 +71,13 @@ picture img{
     display: inline;
     margin-bottom: 1em;
     
+    
 }
 
 #overlay2 h2::after {
-    content: url(sun.svg);
+    content: url(images/sun.svg);
   }
-#overlay2 img{
-    width: 10%;
-    height: auto;
-}
+
 
 
 h2{

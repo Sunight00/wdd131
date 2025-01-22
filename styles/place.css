@@ -67,6 +67,9 @@ picture img{
     font-family: var(--normal-font);
 }
 
+#overlay2 h2 {
+    display: inline
+}
  
 
 
@@ -90,30 +93,50 @@ footer{
 
 
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 700px)
 {
-
     .hero{
         position:static;
     }
+
     #overlay1{
-        all: unset;
+        position: static;
+        margin: 0;
+        text-align: center;
+        background: none;
+        
+        
     }
 
     #overlay2{
-        all: unset;
+        position: static;
+        text-align: center;
+        padding: 0;
+        background: none;
+        
     }
 
     h2{
         color: black;
     }
+
+    #overlay1 h2{
+        margin-bottom: 1em;
+    }
+
     #overlay1 p{
-        color: black;
+       color: black;
+       margin-bottom: 0.5em;
     }
     #overlay2 p{
         color: black;
+        margin-bottom: 0.5em;
     }
 
+    #overlay2 h2{
+        display: block;
+    }
+ 
 
 
 }

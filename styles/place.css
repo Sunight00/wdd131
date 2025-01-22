@@ -6,6 +6,7 @@
 :root {
     --headings-font: "PT Serif", serif;
     --headings-weight: 700;
+    --normal-font: "Roboto", serif;
 }
 
 
@@ -31,10 +32,6 @@ picture img{
 }
 
 
-.title{
-    text-align: right;
-    font-weight: var(--headings-weight);
-}
 
 .hero{
     position: relative;
@@ -53,18 +50,21 @@ picture img{
     top: 50vw;
     left: 70vw;
     background-color: rgba(187, 69, 69, 0.349);
-    padding: 2em;
- 
+    padding: 2em;  
+}
 
-   
+#title {
+    font-weight: var(--headings-weight);
 }
 
 #overlay1 p, h2 {
     color: white;
+    font-family: var(--normal-font);
 }
 
 #overlay2 p, h2 {
     color: white;
+    font-family: var(--normal-font);
 }
 
  
@@ -82,9 +82,6 @@ footer{
     font-family: "Montserrat", serif;
     font-style: normal;
     text-align: center;
-    
-
-
   }
 
 #last, #lastModified{
@@ -100,16 +97,23 @@ footer{
         position:static;
     }
     #overlay1{
-        all:unset;
-        margin-left: auto;
-        margin-right: auto;
-        
+        all: unset;
     }
+
     #overlay2{
         all: unset;
     }
-    h2,td{
-        all: unset;
+
+    h2{
+        color: black;
     }
+    #overlay1 p{
+        color: black;
+    }
+    #overlay2 p{
+        color: black;
+    }
+
+
 
 }

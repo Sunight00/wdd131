@@ -95,7 +95,7 @@ h2{
 
 footer{
     background-color: rgba(206, 206, 206, 0.555);
-    font-family: "Montserrat", serif;
+    font-family:var(--headings-font);
     font-style: normal;
     text-align: center;
   }

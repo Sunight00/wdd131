@@ -4,9 +4,9 @@
 }
 
 :root {
-    --headings-font: "PT Serif", serif;
+    --headings-font: "Ubuntu", serif;
     --headings-weight: 700;
-    --normal-font: "Roboto", serif;
+    --normal-font: "Inter", serif;
 }
 
 

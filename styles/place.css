@@ -75,7 +75,7 @@ picture img{
 }
 
 #overlay2 h2::after {
-    content:url(images/profile.jpg);
+    content:url(images/svg);
   }
 
 

@@ -70,8 +70,6 @@ picture img{
 #overlay2 h2 {
     display: inline;
     margin-bottom: 1em;
-    
-
 }
 
 #overlay2 h2::after {
@@ -91,7 +89,10 @@ h2{
 
 
 
-
+#overlay2 img{
+    width: 20%;
+    height: auto;
+}
 
 
 

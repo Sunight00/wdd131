@@ -13,7 +13,7 @@ document.getElementById("lastModified").innerHTML = (month+1) + "/" + day + "/" 
   
 
 
-let temperature = 11;
+let temperature = 9;
 document.getElementById("temperature").innerHTML=temperature;
 let speed = 4.8;
 document.getElementById("speed").innerHTML=speed;

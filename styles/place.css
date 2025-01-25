@@ -73,7 +73,8 @@ picture img{
 }
 
 #overlay2 h2::after {
-    content:url(images/svg);
+    content: "☀️";
+
   }
 
 
@@ -90,6 +91,7 @@ h2{
 
 
 #overlay2 img{
+    display: none;
     width: 20%;
     height: auto;
 }
@@ -153,7 +155,16 @@ footer{
     #overlay2 h2{
         display: block;
     }
- 
-
+    
+    #overlay2 h2::after {
+        content: "";
+    
+      }
+    
+      #overlay2 img{
+        display: inline;
+        width: 20%;
+        height: auto;
+    }
 
 }

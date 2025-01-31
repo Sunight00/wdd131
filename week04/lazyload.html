@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="scripts/lazyload.js" defer></script>
 </head>
 <style>
     main{
-
+        width: 400px;
+        margin: 0 auto;
     }
     img {
-        width: 400px;
-        height: 600px;
+        width: 100%;
         display: block;
         margin: auto;
+        animation: fade 10s;
+    }
+
+
+    @keyframes fade {
+        0% {opacity: 0;}
+        100%{opacity: 1;}
     }
 
 </style>
+
 <body>
     <header>
         <nav>
@@ -24,15 +33,15 @@
         </nav>
     </header>
     <main>
-        <img src="images/image.webp" loading="lazy">
-        <img src="images/image.webp" loading="lazy">
-        <img src="images/image.webp" loading="lazy">
-        <img src="images/image.webp" loading="lazy">
-        <img src="images/image.webp" loading="lazy">
-        <img src="images/image.webp" loading="lazy">
+        <img src="images/image.webp"  width="400px"height="600px" loading="lazy">
+        <img src="images/image.webp"  width="400px"height="600px" loading="lazy">
+        <img src="images/image.webp"  width="400px"height="600px" loading="lazy">
+        <img src="images/image.webp"  width="400px"height="600px" loading="lazy">
+        <img src="images/image.webp"  width="400px"height="600px" loading="lazy">
+        <img src="images/image.webp"  width="400px"height="600px" loading="lazy">
     </main>
     <footer>
-        <p>Date Modfied: <span id="moddate"></span></p>
+        <p id="ii">Date Modfied: <span id="moddate"></span></p>
     </footer>
 </body>
 </html>

@@ -95,23 +95,36 @@ const temples = [
   ];
 
 
-function createTempleCard()
-{
+
+
+createTempleCard(temples)
+const largelink = document.querySelector("large");
+
+largelink.addEventListener("click",()=>{
+    createTempleCard(temples.filter(temple => temple.area > 90000));
+     
+})
+
+
+
+
+function createTempleCard(temples) 
+{   document.querySelector("#images").innerHTML="";
     temples.forEach(temple =>
     {
         let card = document.createElement("section");
         let name = document.createElement("h3");
         let location = document.createElement("p");
         let dedication = document.createElement("p");
-        let area = document.createElement("p")
-        let img = document.createElement("img")
+        let area = document.createElement("p");
+        let img = document.createElement("img");
 
         name.textContent = temple.templeName;
-        location.innerHTML = '<span class="label">Location:</span> ${temple.location}';
-        dedication.innerHTML = '<span class="label">Dedicated:</span> ${temple.dedicated}';
-        area.innerHTML = '<span class="label">Size:</span> ${temple.area} sq ft';
+        location.innerHTML = '<span class="label">Location: </span>' + temple.location;
+        dedication.innerHTML = '<span class="label">Dedicated:</span>' + temple.dedicated;
+        area.innerHTML = '<span class="label">Size: </span>' +temple.area + " sq ft";
         img.setAttribute("src",temple.imageUrl);
-        img.setAttribute("alt", '${temple.templeName}');
+        img.setAttribute("alt", temple.templeName);
         img.setAttribute("loading","lazy");
 
         card.appendChild(name);

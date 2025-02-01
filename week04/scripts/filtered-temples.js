@@ -73,7 +73,7 @@ const temples = [
         dedicated: "1998, Februray, 16",
         area: 17500,
         imageUrl:
-        "https://churchofjesuschristtemples.org/accra-ghana-temple/photographs/"
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
       },
       {
         templeName: "Salt Lake United States",
@@ -81,7 +81,7 @@ const temples = [
         dedicated: "1893,April, 6",
         area: 382207,
         imageUrl:
-        "https://churchofjesuschristtemples.org/salt-lake-temple/photographs/"
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
       },
       {
         templeName: "Salta Argentina",
@@ -89,11 +89,44 @@ const temples = [
         dedicated: "2024,june,16",
         area: 27000,
         imageUrl:
-        "https://churchofjesuschristtemples.org/salta-argentina-temple/photographs/"
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
       },
     // Add more temple objects here...
   ];
+
+
+function createTempleCard()
+{
+    temples.forEach(temple =>
+    {
+        let card = document.createElement("section");
+        let name = document.createElement("h3");
+        let location = document.createElement("p");
+        let dedication = document.createElement("p");
+        let area = document.createElement("p")
+        let img = document.createElement("img")
+
+        name.textContent = temple.templeName;
+        location.innerHTML = '<span class="label">Location:</span> ${temple.location}';
+        dedication.innerHTML = '<span class="label">Dedicated:</span> ${temple.dedicated}';
+        area.innerHTML = '<span class="label">Size:</span> ${temple.area} sq ft';
+        img.setAttribute("src",temple.imageUrl);
+        img.setAttribute("alt", '${temple.templeName}');
+        img.setAttribute("loading","lazy");
+
+        card.appendChild(name);
+        card.appendChild(location);
+        card.appendChild(dedication);
+        card.appendChild(area);
+        card.appendChild(img);
+
+        document.getElementById("images").appendChild(card);
+    }
+    );
+
+}
   
+createTempleCard()
 
 
 

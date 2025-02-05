@@ -27,10 +27,13 @@ const products = [
     }
   ];
 
-let count=0
+
+
+
 function countReview(){
-    let button = document.getElementById("btn");
-    button.addEventListener("click",)
+    
+    let initial=(JSON.parse(localStorage.getItem("Reviews")));
+    localStorage.setItem("Reviews", JSON.stringify(initial+1));
 }
 
 function createList(){
@@ -42,8 +45,11 @@ function createList(){
         
     });
 };
-
+function change(){
+   
+}
 createList();
+
 
 
 

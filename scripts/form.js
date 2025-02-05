@@ -27,12 +27,19 @@ const products = [
     }
   ];
 
+let count=0
+function countReview(){
+    let button = document.getElementById("btn");
+    button.addEventListener("click",)
+}
+
 function createList(){
     products.forEach(function(product)
     {
         let list = document.createElement("option");
         list.innerHTML=product.name;
         document.querySelector("#products").appendChild(list)
+        
     });
 };
 

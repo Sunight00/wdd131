@@ -1,12 +1,11 @@
-const products = ["Choose a Product...","Tooth Paste","Tooth Brush","Mouth Wash","CPU"];
+const products = ["Tooth Paste","Tooth Brush","Mouth Wash","CPU"];
 
 function createList(){
-    products.forEach(product =>
+    products.forEach(function(product)
     {
         let list = document.createElement("option");
         list.innerHTML=product;
         document.querySelector("#products").appendChild(list)
-
     });
 };
 

@@ -1,37 +1,16 @@
-//const products = ["Choose a Product...","Tooth Paste","Tooth Brush","Mouth Wash","CPU"];
-const products = ["Choose a Product..."];
+const products = ["Choose a Product...","Tooth Paste","Tooth Brush","Mouth Wash","CPU"];
+
 function createList(){
     products.forEach(product =>
     {
-        //let list = document.createElement("option");
+        let list = document.createElement("option");
+        list.innerHTML=product;
+        document.querySelector("#products").appendChild(list)
 
-    })
-}
+    });
+};
 
 createList();
-let list = document.createElement("option");
-list.innerHTML("happy");
-let l = document.createElement("p");
-l=l.innerHTML="sssssssssssssssssss";
-document.querySelector("#p").appendChild(l);
-
-document.getElementById("k").innerHTML="sss";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

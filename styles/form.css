@@ -20,10 +20,13 @@ header{
 header h1{
     font-family: var(--heading);
 }
+p{
+    font-family: var(--para);
+}
 
 main{
     margin-top: .1rem;
-    background-color: gray;
+    
 }
 
 form select,
@@ -31,9 +34,15 @@ form input[type="text"],
 form textarea,
 form input[type="date"]
 {
+    background-color: rgba(224, 223, 223, 0.432);
     display: block;
-    min-width: 400px;
-
+    border: solid 1px gray;
+    border-radius: 6px;
+    padding: .75rem;
+    color: gray;
+    width: 100%;
+    max-width: 400px;
+    font-family: var(--para);
 }
 
 footer{

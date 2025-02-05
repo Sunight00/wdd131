@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+footer{
+    background-color: rgba(206, 206, 206, 0.555);
+    font-family:var(--headings-font);
+    font-style: normal;
+    text-align: center;
+  }
+
+#last, #lastModified{
+    color: rgb(83, 75, 75);
+}

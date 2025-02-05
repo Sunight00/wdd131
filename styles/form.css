@@ -22,9 +22,19 @@ header h1{
 }
 
 main{
+    margin-top: .1rem;
     background-color: gray;
 }
 
+form select,
+form input[type="text"],
+form textarea,
+form input[type="date"]
+{
+    display: block;
+    min-width: 400px;
+
+}
 
 footer{
     background-color: rgba(206, 206, 206, 0.555);

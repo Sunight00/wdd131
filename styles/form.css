@@ -3,8 +3,8 @@
     padding: 0;
 }
 body{
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: var(--para);
 }
 :root{
@@ -23,12 +23,10 @@ header h1{
 }
 
 main{
-    margin-top: .1rem;
+    margin-top: .6rem;
 }
 
-label{
-     margin-top: 1rem;
-}
+
 
 form select,
 form input[type="text"],
@@ -39,10 +37,9 @@ form input[type="date"]
     display: block;
     border: solid 1px gray;
     border-radius: 6px;
-    padding: .75rem;
     color: gray;
     width: 100%;
-    max-width: 500px;
+    
     font-family: var(--para);
 } 
 
@@ -60,6 +57,9 @@ form input[type="submit"]
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
 
 footer{
     background-color: rgba(206, 206, 206, 0.555);

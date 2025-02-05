@@ -19,7 +19,7 @@
     <form method="get" action="review.html">
         <label>
             Product Name
-            <select id="products" name="products" required value="0">
+            <select id="products" name="products" required size="0">
                 <option disabled selected >Select a Product ...</option> 
             </select>
         </label>
@@ -38,13 +38,13 @@
         <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label><br>
         <label><input type="checkbox" id="ease" name="ease" value="yes">Ease of use</label><br>
         <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label><br>
-        <label><input type="checkbox" id="design" name="design" value="yes">Design</label>
+        <label><input type="checkbox" id="design" name="design" value="yes">Design</label><br>
 
         <label>Writen review <span>(Optional)</span>
             <textarea name="review" id="review"></textarea>
         </label>
 
-        <label>Your name<span>(Optional)</span>
+        <label id="name">Your name<span>(Optional)</span>
             <input type="text" id="name" name="name">
         </label>
         <label><input type="submit" value="Post Review"></label>

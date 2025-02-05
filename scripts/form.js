@@ -2,6 +2,9 @@ const products = ["Choose a Product...","Tooth Paste","Tooth Brush","Mouth Wash"
 function createList(){
     products.forEach(function(product){
         let item = document.createElement("option");
-        item.textContent=product;
+        item.innerHTML=product;
+        document.querySelector("#products").appendChild( item.innerHTML=product);
     })
 }
+
+createList();

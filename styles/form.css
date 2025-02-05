@@ -26,11 +26,15 @@ main{
     margin-top: .1rem;
 }
 
+label{
+     margin-top: 1rem;
+}
 
 form select,
 form input[type="text"],
 form textarea,
-form input[type="date"]
+form input[type="date"],
+form input[type="submit"]
 {
     background-color: rgba(224, 223, 223, 0.432);
     display: block;
@@ -41,6 +45,17 @@ form input[type="date"]
     width: 100%;
     max-width: 500px;
     font-family: var(--para);
+} 
+
+label input[type="checkbox"]
+    {
+        margin-right:6px;
+    }
+
+#Rating{
+    margin-top: 1rem;
+    
+    
 }
 
 footer{

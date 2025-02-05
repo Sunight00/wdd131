@@ -20,10 +20,10 @@
         <label>
             Product Name
             <select id="products" name="products" required>
-                <option disabled selected>Select a Product ...</option> 
+                <option disabled selected size="5">Select a Product ...</option> 
             </select>
         </label>
-        <div>
+        <div id="Rating">
             <p>Overall Rating</p>
             <label>⭐<input type="radio" name="Rating" value="onestar" required></label>
             <label>⭐⭐<input type="radio" name="Rating" value="twostar" required></label>
@@ -35,9 +35,9 @@
         <label>Date Of Installation <input type="date" id="date" name="date" required></label>
         <p>Which Feature did you find useful in the product?</p>
         <p><em>(Check all that apply)</em></p>
-        <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
-        <label><input type="checkbox" id="ease" name="ease" value="yes">Ease of use</label>
-        <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
+        <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label><br>
+        <label><input type="checkbox" id="ease" name="ease" value="yes">Ease of use</label><br>
+        <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label><br>
         <label><input type="checkbox" id="design" name="design" value="yes">Design</label>
 
         <label>Writen review <span>(Optional)</span>
@@ -48,6 +48,11 @@
             <input type="text" id="name" name="name">
         </label>
         <label><input type="submit" value="Post Review"></label>
+
+
+
+
+
     </form>
     </main>
 

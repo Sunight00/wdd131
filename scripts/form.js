@@ -31,10 +31,18 @@ const products = [
 
 
 function countReview(){
-    
+
     let initial=(JSON.parse(localStorage.getItem("Reviews")));
     localStorage.setItem("Reviews", JSON.stringify(initial+1));
 }
+
+function load(){
+
+    let initial=(JSON.parse(localStorage.getItem("submissions")));
+    localStorage.setItem("submissions", JSON.stringify(initial+1));
+}
+
+document.getElementById("load").addEventListener("load", load());
 
 function createList(){
     products.forEach(function(product)

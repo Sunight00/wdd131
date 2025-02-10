@@ -1,7 +1,7 @@
 @media screen and (max-width: 640px)
 {
     
-    .nav{
+    .nav-links{
         display: none;
     }
 
@@ -9,7 +9,7 @@
     color: blue;
     display: unset;
    }
-   
+
     nav{
         display: flex;
         justify-content: space-between;

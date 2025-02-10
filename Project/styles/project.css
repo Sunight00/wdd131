@@ -5,15 +5,17 @@ a{
     text-decoration: none;
 }
 
-.nav{
+.nav-links{
 display: inline;
 
 }#menu{
     display: none;
 }
+
 #Logo{
     display: inline;
 }
+
 #menu::before{
     content: "≡";
 }

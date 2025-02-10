@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.nav{
+display: inline;
+
+}#menu{
+    display: none;
+}
+#Logo{
+    display: inline;
+}
+#menu::before{
+    content: "≡";
+}
+
+nav{
+    background-color: rgb(129, 129, 160);
+}

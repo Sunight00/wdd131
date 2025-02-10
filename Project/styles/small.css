@@ -1,0 +1,18 @@
+@media screen and (max-width: 640px)
+{
+    
+    .nav{
+        display: none;
+    }
+
+   #menu{
+    color: blue;
+    display: unset;
+   }
+   
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5em 1em 0.5em 1em;
+    }
+}

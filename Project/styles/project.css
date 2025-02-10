@@ -1,25 +1,44 @@
 *{
     margin: 0;
 }
+nav{
+    background-color: black;
+    padding: 1em 1em 1em 1em;
+    color: white;
+}
+nav h1, nav a{
+    color: white;
+}
 a{
     text-decoration: none;
-}
-
-.nav-links{
-display: inline;
-
-}#menu{
-    display: none;
 }
 
 #Logo{
     display: inline;
 }
 
+/* For Nav Link*/
+.nav-links{
+    display: inline;
+    float: right;
+    margin-right:20em;
+}
+
+.nav-links a{
+    padding: 5em;
+}
+
+
+
+
+
+#menu{
+    display: none;
+}
+
+
+
 #menu::before{
     content: "≡";
 }
 
-nav{
-    background-color: rgb(129, 129, 160);
-}

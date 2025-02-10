@@ -1,6 +1,15 @@
 *{
     margin: 0;
 }
+:root{
+    --Headerfont--: "Roboto", serif;
+    --Paragraphfont-- :"Raleway", serif;
+}
+
+
+
+
+
 nav{
     background-color: black;
     padding: 1em 1em 1em 1em;

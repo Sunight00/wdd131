@@ -20,10 +20,13 @@ nav h1, nav a{
 }
 a{
     text-decoration: none;
+    font-family: var(--Paragraphfont--);
+    font-weight: 500;
 }
 
 #Logo{
     display: inline;
+    font-family: var(--Headerfont--);
 }
 
 /* For Nav Link*/
@@ -48,6 +51,6 @@ a{
 
 
 #menu::before{
-    content: "≡";
+    content: "";
 }
 

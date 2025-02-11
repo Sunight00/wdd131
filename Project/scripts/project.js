@@ -19,40 +19,28 @@ function displayMenu()
 
 function closeMenu()
 {
-   navLinks.style.display="none"
+   //navLinks.style.display="none"
    xmenu.style.display="none"
    menu.style.display="inline"
    collapseNav.style.display="none"
 }
-
-
-function reportWindowSize() {
-
-  //heightOutput.textContent = window.innerHeight;
-  let x = window.innerWidth;
-  if(x>500)
-  {
-    xmenu.style.display="none"
-    menu.style.display="none"
-    collapseNav.style.display="none"
-  }
-  else {
-    menu.style.display="display"
-  }
-}
-
-window.onresize = reportWindowSize;
-
-const heightOutput = document.querySelector("#height");
-const widthOutput = document.querySelector("#width");
-
-function reportWindowSize() {
-  heightOutput.textContent = window.innerHeight;
-  widthOutput.textContent = window.innerWidth;
-}
-
-window.onresize = reportWindowSize;
-
+window.addEventListener("resize",()=>{
+    if(window.innerWidth>600){
+        document.getElementById("play").innerHTML="aaaaaaaaaaaaaaaa"
+        document.getElementById("l").innerHTML=window.innerWidth;
+        menu.style.display="none"
+    }
+    else if(window.innerWidth < 600)
+    {
+        menu.style.display="inline"
+    }
+})
+window.addEventListener("load",()=>{
+    if(window.innerWidth>600){
+        document.getElementById("play").innerHTML="aaaaaaaaaaaaaaaa"
+        document.getElementById("l").innerHTML=window.innerWidth;
+    }
+})
 
 
 

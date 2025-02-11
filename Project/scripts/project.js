@@ -1,6 +1,6 @@
 
 const menu = document.querySelector("#menu");
-menu.addEventListener("click",displayMenu());
+menu.addEventListener("click",displayMenu);
 
 
 

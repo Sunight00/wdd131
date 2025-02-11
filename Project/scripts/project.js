@@ -28,9 +28,6 @@ function closeMenu()
 }
 
 
-
-
-
 function reportWindowSize() {
 
   //heightOutput.textContent = window.innerHeight;

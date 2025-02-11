@@ -10,8 +10,29 @@
     float: right;
     
    }
+   #xmenu{
+    float: right;
+   }
 
     nav{
         text-align: center;
     }
+
+    /*#eg{
+        display: unset;
+        
+    }*/
+
 }
+
+
+
+
+
+
+
+
+
+
+
+

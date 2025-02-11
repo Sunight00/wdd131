@@ -50,7 +50,14 @@ a{
 
 
 
-#menu::before{
-    content: "";
+#xmenu{
+    display: none;
+}
+
+/*#eg{
+    display: none;
+}*/
+.bt{
+    display: none;
 }
 

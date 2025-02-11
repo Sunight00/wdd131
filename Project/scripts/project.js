@@ -19,8 +19,6 @@ function displayMenu()
 
 function closeMenu()
 {
-    
-   
    navLinks.style.display="none"
    xmenu.style.display="none"
    menu.style.display="inline"

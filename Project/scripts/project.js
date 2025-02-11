@@ -4,29 +4,27 @@ menu.addEventListener("click",displayMenu);
 const xmenu = document.querySelector("#xmenu");
 xmenu.addEventListener("click",closeMenu);
 
-
-
-
-
-let n = document.getElementById("eg");
+const navLinks = document.querySelector(".nav-links");
+const collapseNav = document.querySelector(".collapseNav");
 
 
 
 function displayMenu()
 {
-    n.style.display="block"
+    //navLinks.style.display="block"
     menu.style.display="none"
     xmenu.style.display="inline"
-
+    collapseNav.style.display="block"
 }
 
 function closeMenu()
 {
     
    
-   n.style.display="none"
+   navLinks.style.display="none"
    xmenu.style.display="none"
    menu.style.display="inline"
+   collapseNav.style.display="none"
 }
 
 
@@ -41,7 +39,7 @@ function reportWindowSize() {
   {
     xmenu.style.display="none"
     menu.style.display="none"
-    n.style.display="none"
+    collapseNav.style.display="none"
   }
   else {
     menu.style.display="display"

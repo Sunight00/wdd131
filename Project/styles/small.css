@@ -1,6 +1,8 @@
 @media screen and (max-width: 760px)
 {
-    
+    .colNavLink{
+        display: inline-block;
+    }
     .nav-links{
         display: none;
     }

@@ -33,11 +33,12 @@ a{
 .nav-links{
     display: inline;
     float: right;
-    margin-right:20em;
+    margin-right:10em;
+    
 }
 
 .nav-links a{
-    padding: 5em;
+    padding: 2em;
 }
 
 

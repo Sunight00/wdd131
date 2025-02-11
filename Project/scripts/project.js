@@ -32,6 +32,24 @@ function closeMenu()
 
 
 
+
+function reportWindowSize() {
+
+  //heightOutput.textContent = window.innerHeight;
+  let x = window.innerWidth;
+  if(x>500)
+  {
+    xmenu.style.display="none"
+    menu.style.display="none"
+    n.style.display="none"
+  }
+  else {
+    menu.style.display="display"
+  }
+}
+
+window.onresize = reportWindowSize;
+
 const heightOutput = document.querySelector("#height");
 const widthOutput = document.querySelector("#width");
 
@@ -41,7 +59,6 @@ function reportWindowSize() {
 }
 
 window.onresize = reportWindowSize;
-
 
 
 

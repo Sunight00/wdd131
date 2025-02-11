@@ -8,11 +8,9 @@ xmenu.addEventListener("click",closeMenu);
 
 
 
-
-
 let n = document.getElementById("eg");
-let oN = document.querySelector(".bt");
-let oFF = document.querySelector(".btn");
+
+
 
 function displayMenu()
 {
@@ -31,6 +29,16 @@ function closeMenu()
    menu.style.display="inline"
 }
 
+
+
+
+
+
+
+/* Rough example
+let n = document.getElementById("eg");
+let oN = document.querySelector(".bt");
+let oFF = document.querySelector(".btn");
 function off()
 {
     
@@ -62,7 +70,7 @@ document.querySelector(".bt").addEventListener("click",on)
         a=0
     }
 });
-
+*/
 
 
 

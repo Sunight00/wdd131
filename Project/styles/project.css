@@ -42,9 +42,6 @@ a{
 }
 
 
-
-
-
 #menu{
     display: none;
 }
@@ -57,33 +54,6 @@ a{
     display: none;
 }
 
-/*#eg{
-    display: none;
-}*/
-.bt{
-    display: none;
-}
 
-main{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    column-gap: 10px;   
-}
-main section{
-    grid-column: 1/2;
-    background-color: antiquewhite;
-}
 
-main .content{
-    grid-column: 2/7;
-    background-color: aqua;
-    
-}
 
-#aa{
-    background-color: blueviolet;
-}
-
-section audio{
-    
-}

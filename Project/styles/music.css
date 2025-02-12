@@ -19,3 +19,8 @@ main .content{
     padding-left: 2em;
 }
 
+#songList ::-webkit-scrollbar {
+    width: 100px;
+  }
+   
+

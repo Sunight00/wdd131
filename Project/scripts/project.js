@@ -26,8 +26,6 @@ function closeMenu()
 }
 window.addEventListener("resize",()=>{
     if(window.innerWidth>600){
-        document.getElementById("play").innerHTML="aaaaaaaaaaaaaaaa"
-        document.getElementById("l").innerHTML=window.innerWidth;
         menu.style.display="none"
     }
     else if(window.innerWidth < 600)
@@ -37,8 +35,8 @@ window.addEventListener("resize",()=>{
 })
 window.addEventListener("load",()=>{
     if(window.innerWidth>600){
-        document.getElementById("play").innerHTML="aaaaaaaaaaaaaaaa"
-        document.getElementById("l").innerHTML=window.innerWidth;
+        menu.style.display="none"
+        xmenu.style.display="none"
     }
 })
 

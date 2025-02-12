@@ -5,7 +5,11 @@
     --Headerfont--: "Roboto", serif;
     --Paragraphfont-- :"Raleway", serif;
 }
-
+header{
+    position: sticky;
+    top: 0;
+    /*overflow: hidden;*/
+}
 
 
 

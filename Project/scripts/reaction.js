@@ -1,5 +1,5 @@
 //First Audio
-audio1()
+//audio1()
 function audio1(){
 const uthumb1 = document.getElementById("uthumb1");
 //uthumb1.addEventListener("click",add1);
@@ -60,7 +60,7 @@ function remove1()
 }
 }
 
-audio2()
+//audio2()
 function audio2(){
 
 
@@ -249,7 +249,7 @@ function remove1()
 }
 }
 
-audio5()
+//audio5()
 function audio5(){
 const uthumb5 = document.getElementById("uthumb5");
 //uthumb5.addEventListener("click",add1);
@@ -310,7 +310,7 @@ function remove5()
 }
 }
 
-audio6()
+//audio6()
 function audio6(){
 const uthumb6 = document.getElementById("uthumb6");
 //uthumb6.addEventListener("click",add1);

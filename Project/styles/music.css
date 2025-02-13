@@ -1,3 +1,7 @@
+:root{
+    --Headerfont--: "Roboto", serif;
+    --Paragraphfont-- :"Raleway", serif;
+}
 #music{
     font-family: var(--Headerfont--);
     text-align: center;
@@ -16,6 +20,10 @@
 }
 #musicNav a:hover{
     color: skyblue;
+}
+
+h5{
+    font-family: var(--Paragraphfont--);
 }
 
 

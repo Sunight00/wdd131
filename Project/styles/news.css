@@ -55,7 +55,6 @@ h4{
 }
 #latestNews div {
     margin-top: 1em;
-    background-color: black;
 }
 
 #latestNews a{
@@ -63,4 +62,12 @@ h4{
     font-family: var(--Paragraphfont--);
     text-decoration: none;
     font-weight: 600;
+}
+
+#News a:hover{
+    color: rgb(58, 58, 117);
+}
+
+#News img:hover{
+    opacity: 0.6;
 }

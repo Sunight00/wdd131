@@ -160,6 +160,27 @@ h4{
     display: block;
     color: white;
     text-decoration: none;
-    padding-left: 1em;
-    
+    padding-left: 1em;   
+}
+
+#email{
+    background-color:rgb(49, 49, 63);
+}
+#email input{
+    color: white;
+}
+#useremail{
+    background-color:rgb(49, 49, 63);
+    border: none;
+    padding: 0.5em;
+}
+
+#sub{
+    color: white;
+    background-color:rgb(49, 49, 63);
+    border: none;
+}
+::placeholder{
+    color: white;
+    text-decoration: underline;
 }

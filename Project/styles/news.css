@@ -153,7 +153,9 @@ h4{
 .footer h5{
     display: inline;
 }
-
+.footer #Policy{
+    font-size: small;
+}
 .footer a{
     display: block;
     color: white;

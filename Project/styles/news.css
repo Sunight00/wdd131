@@ -1,10 +1,33 @@
+:root{
+    --Headerfont--: "Roboto", serif;
+    --Paragraphfont-- :"Raleway", serif;
+}
+
 img {
     width:100%;
     height: auto;
 }
 
-#overlayimg{
-    background-image: "url(news3.webp)";
+#NewsHead{
+    font-family: var(--Headerfont--);
+    display: block;
+    text-decoration: underline;
+    text-decoration-color: blue;    
+    color: black;
+    margin-top: 1em;
 }
 
-                        
+#news{
+    font-family: var(--Paragraphfont--);
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: medium;
+}
+
+
+
+.box2{
+    margin-top: 2em;
+}

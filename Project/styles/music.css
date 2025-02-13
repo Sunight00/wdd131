@@ -17,3 +17,21 @@
 #musicNav a:hover{
     color: skyblue;
 }
+
+
+
+
+
+#display {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    animation-name: example;
+    animation-duration: 5s;
+  animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    from {background-color: rgb(0, 0, 0);}
+    to {background-color: rgb(124, 124, 101);}
+  }

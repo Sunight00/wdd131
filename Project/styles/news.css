@@ -31,3 +31,36 @@ img {
 .box2{
     margin-top: 2em;
 }
+
+
+#newsCenter{
+    font-family: var(--Paragraphfont--);
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: medium;
+}
+#centerbox{
+    text-align: center;
+}
+
+h4{
+    font-family: var(--Headerfont--);
+    font-size: larger;
+}
+
+#latestNews{
+    border-top: 3px solid rgb(81, 81, 88);
+}
+#latestNews div {
+    margin-top: 1em;
+    background-color: black;
+}
+
+#latestNews a{
+    color: black;
+    font-family: var(--Paragraphfont--);
+    text-decoration: none;
+    font-weight: 600;
+}

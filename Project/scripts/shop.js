@@ -1,4 +1,4 @@
-let shoplist =[
+/*let shoplist =[
     { name:"Headphone",
         image:"https://cdn.pixabay.com/photo/2016/11/19/16/01/audio-1840073_640.jpg",
         price:80
@@ -45,6 +45,6 @@ function shopTemplate()
         document.querySelector("#card").appendChild(card);
     });
 }
-
+*/
 
 

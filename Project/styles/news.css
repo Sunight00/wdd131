@@ -173,7 +173,7 @@ h4{
 #email input{
     color: white;
 }
-form{
+.form{
     background-color:rgb(49, 49, 63);
     width: fit-content;
 }

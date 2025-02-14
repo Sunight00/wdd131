@@ -90,8 +90,8 @@
     <div class="container mt-5">
         <form>
             <div class="row">
-                <div class="col-sm-3">
-                    <h3>Make Order</h3>
+                <div class="col-sm-3 order">
+                    <h3>Order</h3>
                     <label>Fullname:<br><input type="text" name="fname" required></label><br>
                     <label>Mailing Address:<br><input type="text" required></label><br>
                     <label>Email:<br><input type="email" name="email" required></label><br>
@@ -105,9 +105,10 @@
                             <option value="Microphone">Microphone</option>
                             <option value="Midikeybord">Midikeybord</option>
                             </select><br>
-                    <label>Quantity: <br><input type="number" name="Quantity"></label>
+                    <label>Quantity: <br><input type="number" name="Quantity" id="qty" o></label>
+                    <!--<h5>Total: <span id="total"></span></h5>-->
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 order">
                     <h3>Payment</h3>
                     <label>Name On Card:<br><input type="text" name="onc" required></label><br>
                     <label>Credit Card number:<br><input type="number" name="crc" required></label><br>

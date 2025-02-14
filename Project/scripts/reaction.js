@@ -797,3 +797,30 @@ function remove()
     like13.innerHTML=(JSON.parse(localStorage.getItem("like13")));
 }
 }//
+
+
+
+
+
+const top = [
+    {num:"",tsong:"Song",tartist:"Artist",talbum:"Album",ttime:"Time"},
+    {num:"1",song:"Baby (Is It A Crime)", artist:"Rema", album:"Baby (Is It A Crime) Single", time:"2:44"},
+    {num:"2", song:"PITY THIS BOY", artist:"ODUMOBUBLVCK, Victony", album:"PITY THIS BOY- Single", time:"2:45"}
+
+]
+
+array.forEach(element => {
+    let table= document.createElement("table");
+    let row=document.createElement("tr");
+    let num = document.createElement("td")
+    let song=document.createElement("td");
+    let artist=document.createElement("td");
+    let album=document.createElement("td");
+    let time=document.createElement("td");
+
+    row.appendChild(num);
+    row.appendChild(song);
+    row.appendChild(artist);
+    row.appendChild(album);
+    row.appendChild(time);
+});

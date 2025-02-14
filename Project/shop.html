@@ -50,39 +50,72 @@
     </ul>
 
 
-    <div class="container-fluid mt-5">
-        <h3>Available Items</h3>
+    <div class="container mt-5 items">
+        <h3 class="mb-5">Available Items</h3>
         <div class="row shop">
-            <div class="col">
+            <div class="col mt-4">
                 <img src="https://cdn.pixabay.com/photo/2016/11/19/16/01/audio-1840073_640.jpg" alt="headphone" loading="lazy">
-                <h3>Headphone</h3>
-                <button class="shopbtn" onclick="">$100</button>
+                <div class="info">
+                    <h3>Headphone</h3>
+                    <p onclick="">$100</p>
+                </div>
             </div>
 
-            <div class="col">
+            <div class="col mt-4">
                 <img src="https://cdn.pixabay.com/photo/2020/10/28/11/24/ghetto-blaster-5693151_640.jpg" alt="headphone" loading="lazy">
-                <h3>Boombox</h3>
-                <p>$100</p>
+                <div class="info">
+                    <h3>Stereo speaker</h3>
+                    <p>$100</p>
+                </div>
             </div>
 
-            <div class="col">
+            <div class="col mt-4">
                 <img src="https://cdn.pixabay.com/photo/2016/11/21/11/32/audio-1844798_640.jpg" alt="headphone" loading="lazy">
-                <h3>Microphone</h3>
-                <p>$100</p>
+                <div class="info">
+                    <h3>Microphone</h3>
+                    <p>$100</p>
+                </div>
             </div>
 
-            <div class="col">
+            <div class="col mt-4">
                 <img src="https://cdn.pixabay.com/photo/2019/06/16/11/55/midi-4277580_1280.jpg" alt="headphone" loading="lazy">
-                <h3>Midikeybord</h3>
-                <p>$100</p>
+                <div class="info">
+                    <h3>Midikeybord</h3>
+                    <p>$100</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container mt-5">
         <form>
-            <label>Firstname<input type="text" name="fname"></label>
-            <label>Firstname<input type="text" name="lname"></label>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>Make Order</h3>
+                    <label>Fullname:<br><input type="text" name="fname" required></label><br>
+                    <label>Mailing Address:<br><input type="text" required></label><br>
+                    <label>Email:<br><input type="email" name="email" required></label><br>
+                    <label>Tel:  (optional)<br><input type="tel" name="phone"></label><br>
+
+                    <label for="cars">Choose a Product:</label><br>
+                            <select id="Product" name="Products">
+                            <option disabled selected>Products</option>
+                            <option value="Headphone">Headphone</option>
+                            <option value="Boombox">Stereo speaker</option>
+                            <option value="Microphone">Microphone</option>
+                            <option value="Midikeybord">Midikeybord</option>
+                            </select><br>
+                    <label>Quantity: <br><input type="number" name="Quantity"></label>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Payment</h3>
+                    <label>Name On Card:<br><input type="text" name="onc" required></label><br>
+                    <label>Credit Card number:<br><input type="number" name="crc" required></label><br>
+                    <label>Exp date:<br><input type="date" required name="expdate"></label><br>
+                    <label>CVV<br><input type="number" required name="cvv"></label><br>
+                    <label><input type="submit" value="Place Order"></label>
+                </div>
+            </div>
         </form>
     </div>
 

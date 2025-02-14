@@ -796,4 +796,4 @@ function remove()
     localStorage.removeItem("like13");
     like13.innerHTML=(JSON.parse(localStorage.getItem("like13")));
 }
-}
+}//

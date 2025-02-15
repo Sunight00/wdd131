@@ -18,6 +18,11 @@ function able(){
         let album=document.createElement("td");
         let time=document.createElement("td");
        
+        num.setAttribute("class","data");
+        song.setAttribute("class","data")
+        artist.setAttribute("class","data")
+        album.setAttribute("class","data")
+        time.setAttribute("class","data")
 
 
         num.innerHTML=element.num;
